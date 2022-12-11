@@ -1,0 +1,66 @@
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: aqua
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+}
+
+mat-icon{
+  color: rgb(148, 93, 214)
+}
+
+.logo:hover{
+color: aqua
+}
+
+.flex-container{
+  width: 100%;
+  max-width: 1280px;
+  margin:auto;
+  padding: 10px;
+
+}
+.projects{
+  text-align: center;
+  font-size: 2rem;
+  line-height: 32px;
+}
+
+.technologies{
+  text-align: center;
+  font-size: 2rem;
+  line-height: 32px;
+}
+
+.about{
+  text-align: center;
+  font-size: 2rem;
+  line-height: 32px;
+}
+.git{
+  text-align: right;
+}
+
+.divider {
+  max-width: 1280px;
+  margin: auto;
+  height: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+}

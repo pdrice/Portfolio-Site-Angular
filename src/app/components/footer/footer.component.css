@@ -1,0 +1,36 @@
+hr{
+  opacity: .5;
+  margin-bottom: 35px;
+}
+.container{
+  max-width: 1280px;
+  margin-top: 75px;
+
+}
+
+.contact{
+  text-align: left;
+  margin-left: 15px;
+  opacity: .5;
+}
+
+.content{
+  font-size: 18px;
+}
+
+.footer{
+  background-color: #0F1624;
+  color: white;
+
+}
+.spacer {
+  flex: 1 1 auto;
+}
+
+.divider {
+  width: 1280px;
+  height: 3px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+}

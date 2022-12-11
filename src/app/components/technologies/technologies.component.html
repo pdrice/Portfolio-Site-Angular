@@ -1,0 +1,58 @@
+<div class="container">
+  <div id="technologies" class="divider">
+
+  </div>
+  <div class="top">
+    <div class="head-title">
+      <h1>Technologies</h1>
+    </div>
+
+    <div class="subtext">
+      <p>I've worked with a range a technologies in the web development world. From front-end to back-end to design</p>
+    </div>
+  </div>
+
+  <div  class="tech-list">
+      <div class="lists" fxLayout="row" fxLayout.xs="column" fxLayoutGap.xs="20px" *ngFor="let tech of techs;let i = index">
+            <div fxFlex  class="tech-container">
+              <mat-icon>video_label</mat-icon>
+              <div class="title">
+                Front-End
+              </div>
+              <div class="content">
+                Experience with: <br>
+                <li *ngFor="let list of tech.frontend">
+                  {{list}}
+                </li>
+                <!-- {{tech.frontend}} -->
+              </div>
+            </div>
+
+            <div  fxFlex  class="tech-container">
+              <mat-icon>dns</mat-icon>
+              <div class="title">
+                Back-End
+              </div>
+              <div class="content">
+                Experience with: <br>
+                <li *ngFor="let list of tech.backend">
+                  {{list}}
+                </li>
+              </div>
+            </div>
+            <div fxFlex   class="tech-container">
+              <mat-icon>mobile_friendly</mat-icon>
+              <div class="title">
+                UI/UX
+              </div>
+              <div class="content">
+                Experience with: <br>
+                <li *ngFor="let list of tech.uiux">
+                  {{list}}
+                </li>
+              </div>
+            </div>
+      </div>
+
+  </div>
+</div>
