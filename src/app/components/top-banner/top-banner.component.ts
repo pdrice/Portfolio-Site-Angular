@@ -9,10 +9,10 @@ import Typewriter from 't-writer.js';
 export class TopBannerComponent implements OnInit {
   loopText = [
     'Full Stack Web Developer 💻',
-    'Facebook Marketer 💰',
-    'SEO Knowledge Implementor 😎',
-    'Ecommerce Knowledge Entrepreneur 📚',
-    'Digital Art Designer ✨',
+    'System Intergration & Testing Engineer',
+    'Certified in Security+',
+    'Red Hat Certified System Administator',
+    'Red Hat Certified Engineer',
     'Ethusiatic Developer 💎',
   ];
 
@@ -28,10 +28,10 @@ export class TopBannerComponent implements OnInit {
       .strings(
         500,
         'Full Stack Web Developer',
-        'Facebook Marketer',
-        'SEO Expert',
-        'Ecommerce Wiz',
-        'Digital Art Designer'
+        'System Intergration & Testing Engineer',
+        'Certified CompTIA Security+ Professional',
+        'Red Hat Certified System Administator',
+        'Red Hat Certified Engineer',
       )
       .start();
   }

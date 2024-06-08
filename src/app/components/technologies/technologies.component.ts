@@ -11,7 +11,8 @@ export class TechnologiesComponent implements OnInit {
     {
       'frontend':['HTML','CSS','JavaScript','Angular','Bootstrap','Bulma'],
       'backend':['PostgresSQL','MongoDB','Node','Python','NoSQL','SQL'],
-      'uiux':['Canva','Photoshop','Illustrator','Word','Excel']
+      'uiux':['Canva','Photoshop','Illustrator','Word','Excel','Figma'],
+      'tools':['Red Hat','Ansible','Git','Docker','Podman','FreeIPA']
     }
   ]
 

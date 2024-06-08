@@ -1,0 +1,39 @@
+<div fxLayout.sm="column" fxLayout="column" class="container">
+    <div id="certifications" class="divider">
+    </div>
+    <div class="section-title">
+      <h2>Certifications</h2>
+    </div>
+    <div fxFlex fxLayoutGap="0px" fxLayout="row wrap" class="cards-container">
+      <div fxFlex="2 1 0" *ngFor="let project of projects; let i = index" class="cards">
+        <mat-card fxFlex class="card">
+          <img src={{project.image}} alt={{project.title}}>
+          <mat-card-title>{{project.title}}</mat-card-title>
+          <hr>
+          <p>
+            {{project.description}}
+          </p>
+          <div class="skill-title">
+            Verifitation Code or ID
+          </div>
+          <mat-card-content>
+            <ul>
+              <mat-card-subtitle *ngFor="let skills of project.skills;let i = index">
+                <div class="skills">
+                  <li>
+                    {{skills}}
+                  </li>
+                </div>
+              </mat-card-subtitle>
+            </ul>
+          </mat-card-content>
+          <i>
+            <div class="visit">
+              <a href="{{project.visit}}" target="_blank"> <button mat-button>Verify</button></a>
+            </div>
+          </i>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+  
